@@ -12,23 +12,41 @@
 #Receitas 
 <category>
     <pattern>GOSTARIA DE FAZER UM HAMBURGUER</pattern>
-    <template>TEMOS VARIAS OPÇÕES 
+    <template>
+        QUAL TIPO DE HAMBURGUER VOCÊ DESEJA?
         <think>
-                <set name="topic">HAMBURGUER</set>
+            <set name="topic">HAMBURGUER</set>
         </think>
-    </template>            
+    </template>
 </category>
 
-<topic name = "HAMBURGUER">
+<topic name="HAMBURGUER">
+
     <category>
-                <pattern>ME DE A LISTA DE INGREDIENTES</pattern>
-                <template>AQ ESTÃOM A LISTA DE INGREDIENTES
-                        <random>
-                                <li>pegue 1 pao corte ao meio coloque carne de hamburguer e vc tera um hamburguer</li>
-                                <li>pegue 1 pao corte ao meio pegue uma carne de hamburguer e dois ovos junte tudo e voce tem um X-ovo</li>
-                        </random>
-                </template>
+        <pattern>SALADA</pattern>
+        <template>
+            RECEITA DE HAMBURGUER DE SALADA:
+            - pão
+            - carne
+            - alface
+            - tomate
+
+            DESEJA VER OUTRA RECEITA?
+        </template>
     </category>
+
+    <category>
+        <pattern>OVO</pattern>
+        <template>
+            RECEITA DE HAMBURGUER COM OVO:
+            - pão
+            - carne
+            - 2 ovos
+
+            DESEJA VER OUTRA RECEITA?
+        </template>
+    </category>
+
 </topic>
 
 #Error
