@@ -45,3 +45,41 @@
         <template>Você pode pagar em dinheiro ou cartão de crédito.</template>
     </category>
 </topic>
+
+#Receitas
+<category>
+    <pattern>GOSTARIA DE FAZER UM HAMBURGUER</pattern>
+    <template>
+        QUAL TIPO DE HAMBURGUER VOCÊ DESEJA?
+        <think>
+            <set name="topic">HAMBURGUER</set>
+        </think>
+    </template>
+</category>
+
+<topic name="HAMBURGUER">
+
+    <category>
+        <pattern>SALADA</pattern>
+        <template>
+            RECEITA DE HAMBURGUER DE SALADA:
+            - pão
+            - carne
+            - alface
+            - tomate
+
+            DESEJA VER OUTRA RECEITA?
+        </template>
+    </category>
+
+    <category>
+        <pattern>OVO</pattern>
+        <template>
+            RECEITA DE HAMBURGUER COM OVO:
+            - pão
+            - carne
+            - 2 ovos
+
+            DESEJA VER OUTRA RECEITA?
+        </template>
+    </category>
