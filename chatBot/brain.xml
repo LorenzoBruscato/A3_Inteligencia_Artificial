@@ -100,7 +100,7 @@
     <category>
         <pattern>X TUDO</pattern>
         <template>
-            RECEITA DE HAMBURGUER COM VERDURAS:
+            RECEITA DE HAMBURGUER COM TUDO:
             - pão
             - 1 carne
             - 2 ovos
@@ -162,7 +162,50 @@
 
 
 
+<category>
+    <pattern>GOSTARIA DE FAZER UM PIZZA</pattern>
+    <template>
+        QUAL TIPO DE PIZZA VOCÊ DESEJA?
+        <think>
+            <set name="topic">PIZZA</set>
+        </think>
+    </template>
+</category>
 
+<topic name="PIZZA">
+
+    <category>
+        <pattern>CALEBREZA</pattern>
+        <template>
+            RECEITA DE PIZZA DE CALABREZA:
+            - PEGUE UMA MASSA DE PIZZA
+            - FAÇO TODO O PROÇESSO DE CRECER ATE UM TAMANHO ADEQUADRO
+            - COLOQUE MOLHO DE TOMATE EN UNA QUABTIDADE SATISFATORIA
+            - PEGUE 250 GRAMAS DE CALABREZA E CORTE EM FATIAS PEQUENAS
+            - PRE AQUEÇA SEU FOGÃO EM FOGO ALTO DURANTE 15 MINUTOS 
+            - COLOQUE SUA PIZZA NO FOGÃO DURANTE APROXIMADAMENTE 1HORA E 30
+            
+            DESEJA VER OUTRA RECEITA?
+        </template>
+    </category>
+
+    <category>
+        <pattern>FRANGO COM CATUPIRY</pattern>
+        <template>
+            RECEITA DE PIZZA FRANGO COM CATUPIRY:
+            - PEGUE UMA MASSA DE PIZZA
+            - FAÇO TODO O PROÇESSO DE CRECER ATE UM TAMANHO ADEQUADRO
+            - COLOQUE MOLHO DE TOMATE EN UNA QUABTIDADE SATISFATORIA
+            - PEQUE UM FRAGO DESFIADO DE 250 GRAMAS
+            - PEGUE UM TUBO DE CATUPIRY DE 250 GRAMAS 
+            - FAÇA UM ZIG ZAG ENTRE OS DOIS
+            - PRE AQUEÇA SEU FOGÃO EM FOGO ALTO DURANTE 15 MINUTOS 
+            - COLOQUE SUA PIZZA NO FOGÃO DURANTE APROXIMADAMENTE 1HORA E 30
+
+            DESEJA VER OUTRA RECEITA?
+        </template>
+    </category>
+</topic>
 
 
 #Error
