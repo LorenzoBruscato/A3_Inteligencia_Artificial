@@ -120,6 +120,45 @@
 
 </topic>
 
+<category>
+    <pattern>GOSTARIA DE FAZER UM OVO</pattern>
+    <template>
+        QUAL TIPO DE OVO VOCÊ DESEJA?
+        <think>
+            <set name="topic">OVO</set>
+        </think>
+    </template>
+</category>
+
+<topic name="OVO">
+
+    <category>
+        <pattern>MEXIDO</pattern>
+        <template>
+            RECEITA DE OVO MEXIDO:
+            - PEGUE UMA FRIGIDEIRA
+            - INICIE SEU FOGÃO A FOGO ALTO OU MEDIO 
+            - QUEBRE O OVO NA FRIGEDEIRA
+            - MIXTURE COM TEMPEROS E AFINS
+            DESEJA VER OUTRA RECEITA?
+        </template>
+    </category>
+
+    <category>
+        <pattern>COZIDO</pattern>
+        <template>
+            RECEITA DE OVO COZIDO:
+            - PEGUE UMA PANELA EM FORMATO DE CAMBUCA
+            - INICIE O FOGÃO A FOGO ALTO 
+            - COLOQUE AGUA A UMA ALTURA ACEITAVEL
+            - COLOQUE O OVO
+            - ESPERE POR VOLTA DE 2 A 5 MINUTOS
+
+            DESEJA VER OUTRA RECEITA?
+        </template>
+    </category>
+</topic>
+
 
 
 
