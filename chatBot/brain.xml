@@ -47,7 +47,84 @@
         </template>
     </category>
 
+    <category>
+        <pattern>BACON</pattern>
+        <template>
+            RECEITA DE HAMBURGUER COM BACON:
+            - pão
+            - carne
+            - 2 Bacons
+
+            DESEJA VER OUTRA RECEITA?
+        </template>
+    </category>
+
+    <category>
+        <pattern>FRANGO</pattern>
+        <template>
+            RECEITA DE HAMBURGUER COM FRANGO:
+            - pão
+            - carne
+            - FRANGO DE 300 GRAMAS
+
+            DESEJA VER OUTRA RECEITA?
+        </template>
+    </category>
+
+    <category>
+        <pattern>FRANGO</pattern>
+        <template>
+            RECEITA DE HAMBURGUER COM FRANGO:
+            - pão
+            - carne
+            - FRANGO DE 300 GRAMAS
+
+            DESEJA VER OUTRA RECEITA?
+        </template>
+    </category>
+
+    <category>
+        <pattern>VEGETARIANO</pattern>
+        <template>
+            RECEITA DE HAMBURGUER COM VERDURAS:
+            - pão
+            - 1 tomate
+            - 1 RUCULA
+            - 1 ABACATE
+            - MOLHO DE VERDURAS
+
+            DESEJA VER OUTRA RECEITA?
+        </template>
+    </category>
+
+    <category>
+        <pattern>X TUDO</pattern>
+        <template>
+            RECEITA DE HAMBURGUER COM VERDURAS:
+            - pão
+            - 1 carne
+            - 2 ovos
+            - 2 Bacons
+            - 360 gramas de batata palha 
+            - 320 gramas de frango desfiado
+            - 1 Rucula 
+            - 220 gramas de coração
+            - 220 gramas de camarão
+            - 1 pote de ketchupe
+            - 1 pote de mostarda 
+
+            DESEJA VER OUTRA RECEITA?
+        </template>
+    </category>
+
+
 </topic>
+
+
+
+
+
+
 
 #Error
 <category>
