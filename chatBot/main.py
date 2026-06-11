@@ -22,4 +22,5 @@ while True:  # Executa o laço indefinidamente
     message = input("> ")  # Inicializa o prompt do chatbot
     message = filter(message)  # Limpa a mensagem entrada pelo usuário
     response = k.respond(message)  # Envia ao motor e retorna a resposta
+    response = response.replace('\n', '\n') #Realiza a quebra de linha
     print(response)  # Imprime a resposta
